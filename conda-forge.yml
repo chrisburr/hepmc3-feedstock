@@ -12,3 +12,5 @@ build_platform:
 conda_build:
   pkg_format: '2'
 test: native_and_emulated
+conda_install_tool: pixi
+conda_build_tool: rattler-build
